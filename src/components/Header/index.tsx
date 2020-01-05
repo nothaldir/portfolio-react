@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import styled from "styled-components";
 
 const StyledHeader = styled.header`
@@ -34,15 +34,21 @@ const StyledHeader = styled.header`
   }
 `;
 
-const Header = () => {
+const Header: FC = () => {
   return (
     <StyledHeader>
       <h1>Alex Berneau</h1>
       <h2>Front-end JS Developer</h2>
       <p>
-        I mainly do JS stuff, so here's a plain and simple JSON object to tell
-        you who I am and what I do. <br /> <br />
+        I specialize in front-end JavaScript development (React, Vue, GraphQL,
+        etc).
+        <br />
+        But if you want to know more, here's a JSON object to tell you more
+        about who I am and what I do.
+        <br /> <br />
         Contact and networks links at the end of page.
+        <br />
+        Cheers.
       </p>
     </StyledHeader>
   );

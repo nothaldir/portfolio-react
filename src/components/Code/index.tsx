@@ -1,19 +1,18 @@
-import React from "react";
+import React, { FC } from "react";
 import styled from "styled-components";
 
 import "./prism";
 import "./prism.cobalt2.css";
 
 const StyledCode = styled.section`
-  /* max-width: 700px; */
   display: flex;
   margin: 40px 0;
 `;
 
-const Code = () => {
-  const getAge = (d1, d2) => {
+const Code: FC = () => {
+  const getAge = (d1: Date, d2?: Date): number => {
     d2 = d2 || new Date();
-    var diff = d2.getTime() - d1.getTime();
+    const diff = d2.getTime() - d1.getTime();
     return Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
   };
 
@@ -24,8 +23,18 @@ const Code = () => {
           {`{
   "name": "Alex Berneau",
   "age": "${getAge(new Date(1994, 3, 24))}",
+  "nationalities": ["French", "Italian"],
+  "languages": ["French", "English", "Spanish"],
   "expertise": "Front-end JavaScript",
-  "skills": ["ReactJS", "VueJS", "Apollo GraphQL", "GraphQL", "Node"],
+  "skills": [
+    "ReactJS",
+    "VueJS",
+    "Apollo GraphQL",
+    "GraphQL",
+    "NodeJS",
+    "TypeScript",
+    "Flow"
+  ],
   "workExperiences": [
     {
       "company": "AKQA",
@@ -66,7 +75,8 @@ const Code = () => {
     ],
     "period": "September 2014 - December 2019",
     "link": "https://www.hetic.net"
-  }
+  },
+  "hobbies": ["Guitar playing", "Video Games", "Rock music", "Movies"]
 }
 `}
         </code>

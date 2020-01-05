@@ -1,7 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 import styled from "styled-components";
 
 const StyledFooter = styled.footer`
+  display: flex;
   margin: 40px 0 80px;
 
   @media (min-width: 600px) {
@@ -9,12 +10,10 @@ const StyledFooter = styled.footer`
   }
 
   ul {
-    display: flex;
-    flex-direction: column;
-
-    @media (min-width: 600px) {
-      max-width: 30vw;
-      flex-direction: row;
+    li {
+      @media (min-width: 600px) {
+        display: inline-block;
+      }
     }
 
     li:not(:last-child) {
@@ -52,7 +51,7 @@ const StyledFooter = styled.footer`
   }
 `;
 
-const Footer = () => {
+const Footer: FC = () => {
   return (
     <StyledFooter>
       <ul>

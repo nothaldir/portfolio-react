@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import styled from "styled-components";
 
 import Header from "./components/Header";
@@ -9,7 +9,7 @@ const StyledApp = styled.main`
   padding: 0 10vw;
 `;
 
-const App = () => {
+const App: FC = () => {
   return (
     <StyledApp>
       <Header />
