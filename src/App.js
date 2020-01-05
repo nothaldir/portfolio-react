@@ -9,7 +9,7 @@ const StyledApp = styled.main`
   padding: 0 10vw;
 `;
 
-function App() {
+const App = () => {
   return (
     <StyledApp>
       <Header />
@@ -17,6 +17,6 @@ function App() {
       <Footer />
     </StyledApp>
   );
-}
+};
 
 export default App;

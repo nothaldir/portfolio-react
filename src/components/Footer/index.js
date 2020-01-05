@@ -61,20 +61,20 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/alexberneau/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            linkedIn
-          </a>
-        </li>
-        <li>
-          <a
             href="https://github.com/nothaldir"
             target="_blank"
             rel="noopener noreferrer"
           >
             github
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/alexberneau/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedIn
           </a>
         </li>
         <li>
