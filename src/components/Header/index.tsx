@@ -41,7 +41,7 @@ const Header: FC = () => {
       <h2>Front-end JS Developer</h2>
       <p>
         I specialize in front-end JavaScript development (React, Vue, GraphQL,
-        etc).
+        etc.).
         <br />
         But if you want to know more, here's a JSON object to tell you more
         about who I am and what I do.
