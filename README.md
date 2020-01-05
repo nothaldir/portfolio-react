@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab93c581-78d4-488d-a58b-a73a24b27486/deploy-status)](https://app.netlify.com/sites/alex-berneau-portfolio/deploys)
+
+# Alex Berneau - Portfolio made w/ React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
