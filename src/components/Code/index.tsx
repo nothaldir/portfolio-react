@@ -75,8 +75,7 @@ const Code: FC = () => {
     ],
     "period": "September 2014 - December 2019",
     "link": "https://www.hetic.net"
-  },
-  "hobbies": ["Guitar playing", "Video Games", "Rock music", "Movies"]
+  }
 }
 `}
         </code>
