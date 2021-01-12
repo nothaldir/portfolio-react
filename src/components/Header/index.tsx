@@ -40,15 +40,19 @@ const Header: FC = () => {
       <h1>Alex Berneau</h1>
       <h2>Front-end JS Developer</h2>
       <p>
-        I specialize in front-end JavaScript development (React, Vue, GraphQL,
-        etc.).
+        Hello there!
         <br />
-        But if you want to know more, here's a JSON object to tell you more
-        about who I am and what I do.
-        <br /> <br />
+        <br />
+        I'm Alex, and I mostly do front-end JavaScript development (React, Vue,
+        GraphQL, etc.).
+        <br />
+        If you want to know more about me and what I do, you can check the JSON
+        object down below.
+        <br />
+        <br />
         Contact and networks links at the end of page.
         <br />
-        Cheers.
+        Cheers :).
       </p>
     </StyledHeader>
   );

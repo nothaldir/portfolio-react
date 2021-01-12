@@ -23,13 +23,12 @@ const Code: FC = () => {
           {`{
   "name": "Alex Berneau",
   "age": "${getAge(new Date(1994, 3, 24))}",
-  "nationalities": ["French", "Italian"],
-  "languages": ["French", "English", "Spanish"],
+  "languages": ["French", "English"],
   "expertise": "Front-end JavaScript",
   "skills": [
     "ReactJS",
     "VueJS",
-    "Apollo GraphQL",
+    "NuxtJS",
     "GraphQL",
     "NodeJS",
     "TypeScript",
