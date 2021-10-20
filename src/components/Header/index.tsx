@@ -44,10 +44,9 @@ const Header: FC = () => {
         <br />
         <br />
         I'm Alex, and I mostly do front-end JavaScript development (React, Vue,
-        GraphQL, etc.).
+        Nuxt, GraphQL, etc.).
         <br />
-        If you want to know more about me and what I do, you can check the JSON
-        object down below.
+        If you want to know more about me and what I do, you can check out the informations down below.
         <br />
         <br />
         Contact and networks links at the end of page.
