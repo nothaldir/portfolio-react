@@ -85,15 +85,6 @@ const Footer: FC = () => {
             twitter
           </a>
         </li>
-        <li>
-          <a
-            href="https://www.instagram.com/alex.berneau"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            instagram
-          </a>
-        </li>
       </ul>
     </StyledFooter>
   );
